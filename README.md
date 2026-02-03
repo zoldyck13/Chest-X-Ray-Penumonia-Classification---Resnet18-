@@ -16,11 +16,7 @@ ___
 │   │   └── train/
 │   │   └── val/
 │
-├── Hyperparameters_image_test
-│   ├── NORMAL/
-│   ├── PENUMONIA/
 │   
-│
 ├── runs
 │   ├── gradcam_output/
 │   ├── penuumonia_resnet18/
@@ -34,8 +30,6 @@ ___
 │   ├── model_final.pt
 │   ├── train.py
 │
-├── venv/
-├── gradcam_result.png
 └── README.md
 
 ```
