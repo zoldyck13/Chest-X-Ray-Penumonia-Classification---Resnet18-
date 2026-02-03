@@ -8,7 +8,6 @@ from PyQt5.QtGui import QPixmap, QImage, QFont, QColor
 from PyQt5.QtCore import Qt
 from PIL import Image
 
-# Import your custom logic
 from src.inference import load_model, get_transform, GradCAM, overlay_heatmap
 
 class PneumoniaDetectionApp(QWidget):
