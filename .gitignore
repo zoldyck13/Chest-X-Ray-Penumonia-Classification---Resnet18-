@@ -19,10 +19,8 @@ env/
 # =====================
 # PyTorch / ML / Data
 # =====================
-*.pt
 *.pth
 *.ckpt
-runs/
 *.log
 
 # Ignore processed and raw datasets
@@ -31,9 +29,9 @@ data/raw/
 
 # GradCAM / outputs
 gradcam_result.png
-Hyperparamters_image_test/
 muilt_class_classfaction/
 data_muilt_calss_classfaction/
+gradcam_output/
 
 # =====================
 # Jupyter / Notebook
