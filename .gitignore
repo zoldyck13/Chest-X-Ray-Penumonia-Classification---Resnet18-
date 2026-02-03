@@ -1,0 +1,50 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# =====================
+# Virtual Environment
+# =====================
+venv/
+ENV/
+env/
+
+# =====================
+# PyTorch / ML / Data
+# =====================
+*.pt
+*.pth
+*.ckpt
+runs/
+*.log
+
+# Ignore processed and raw datasets
+data/processed/
+data/raw/
+
+# GradCAM / outputs
+gradcam_result.png
+Hyperparamters_image_test/
+muilt_class_classfaction/
+data_muilt_calss_classfaction/
+
+# =====================
+# Jupyter / Notebook
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# OS / Editor files
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
